@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to right, #191654, #43c6ac);
+}
+
+h2 {
+  font-family: 'krona one';
+  text-shadow: 1px 1px 2px #00000075;
+  color: #fff;
+  font-size: 50px !important;
+}
+
+.d-flex {
+  width: 50%;
+}
+
+form {
+  font-family: 'open sans';
+  display: flex;
+  justify-content: center;
+}
+
+form button {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+button {
+  padding: 5px;
+}
+
+.main-table {
+  width: 50%;
+  margin-top: 2%;
+  font-family: 'open sans';
+}
+
+.table>thead:nth-child(1)>tr:nth-child(1)>td:nth-child(3) {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.table>thead:nth-child(1)>tr:nth-child(1)>td:nth-child(2) {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+td {
+  color: #eee;
+  font-size: 25px;
+}
+
+button {
+  box-shadow: 1px 1px 5px #00000075;
+}
